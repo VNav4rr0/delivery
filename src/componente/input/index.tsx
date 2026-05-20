@@ -1,7 +1,11 @@
-import { TextInput } from "react-native/types_generated/index"
+import { TextInput} from "react-native"
 
-export default Input => {
+type Props TextInputProps &{
+    value: string;
+
+}
+export default function Input ({}) {
     return(
-        TextInput
+        TextInput 
     )
 }
