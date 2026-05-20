@@ -1,5 +1,6 @@
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { useState } from 'react';
+import Button from '../button/index'
 
 export const Card = () => {
     const [email, setEmail] = useState('');
@@ -25,9 +26,8 @@ export const Card = () => {
                 secureTextEntry
             />
             
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Entrar</Text>
-            </TouchableOpacity>
+            <Button title="Entrar"/>
+            
         </View>
     );
 };

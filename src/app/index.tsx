@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
-import { Card } from '../componente/Card';
+import { Card } from '../componente/card';
 
 
 export default function Index() {
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#444',
         flex: 1,
         padding: 32,
-        justifyContent: 'start',
+        justifyContent: 'flex-start',
         alignItems:'center',
         gap: 16,
     },
