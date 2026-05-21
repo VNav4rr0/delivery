@@ -1,15 +1,25 @@
 import { StyleSheet } from "react-native";
 
-export const  Style = StyleSheet.create({
+export const styles = StyleSheet.create({
     button: {
-        backgroundColor: '#007AFF',
-        borderRadius: 8,
-        padding: 12,
+        backgroundColor: '#ffdf00', // Amarelo Ouro
+        borderRadius: 12,
+        paddingVertical: 14,
         alignItems: 'center',
+        borderWidth: 2,
+        borderColor: '#002776', // Detalhe em Azul Bic
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.2,
+        shadowRadius: 3,
+        elevation: 3,
+        marginTop: 10,
     },
     buttonText: {
-        color: '#fff',
+        color: '#002776', // Texto em Azul
         fontSize: 16,
-        fontWeight: 'bold',
+        fontWeight: '900', // Bem destacado estilo numeração de camisa
+        textTransform: 'uppercase',
+        letterSpacing: 1,
     },
-})
+});
